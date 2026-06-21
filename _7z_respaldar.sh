@@ -33,4 +33,4 @@
 grep -v '^#' lista.txt > lista_limpia.txt
 7z a respaldo.7z @lista_limpia.txt
 
-./_7z_listar.sh
+./_7z_git_listar.sh
