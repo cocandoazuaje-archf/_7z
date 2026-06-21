@@ -19,9 +19,18 @@
 #   respaldo.7z
 # =====================================================
 
-7z a \
-    respaldo.7z \
-    @lista.txt
+# 7z a \
+#     respaldo.7z \
+#     @lista.txt
 
+# if grep -q '#' lista.txt; then
+#     echo "Se encontró # en lista.txt. No se ejecuta 7z."
+# else
+#     echo "Ejecutando compresión..."
+#     7z a respaldo.7z @lista.txt
+# fi
+
+grep -v '^#' lista.txt > lista_limpia.txt
+7z a respaldo.7z @lista_limpia.txt
 
 ./_7z_listar.sh

@@ -1,4 +1,3 @@
-#/Users/carlosocando/Desktop/original_javier_funciona_full/referidosrrvv/referidosrrvv/referidosrrvv/referidosrrvv_20260616_151133/referidosrrvv/referidos/
 "/Users/carlosocando/de_todo/Sustituciones de texto.plist"
 /Users/carlosocando/.m2/settings.xml
 /Users/carlosocando/.ssh/
